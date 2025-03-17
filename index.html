@@ -32,13 +32,13 @@
       <nav class="nav-header">
         <ul class="header-nav-list">
           <li class="nav-header-item">
-            <a class="item-nav-link current " href="./index.html">Home</a>
+            <a class="item-nav-link current" href="./index.html">Home</a>
           </li>
           <li class="nav-header-item">
-            <a class="item-nav-link" href="#">How it’s made?</a>
+            <a class="item-nav-link" href="#cofe-made">How it’s made?</a>
           </li>
           <li class="nav-header-item">
-            <a class="item-nav-link" href="#">Chocolate is loved</a>
+            <a class="item-nav-link" href="#loved">Chocolate is loved</a>
           </li>
         </ul>
       </nav>
@@ -72,8 +72,8 @@
       </button>
       <nav class="mobile-menu-nav">
         <a class="mobile-menu-nav-link current" href="#">Home</a>
-        <a class="mobile-menu-nav-link" href="#">How it’s made?</a>
-        <a class="mobile-menu-nav-link" href="#">Chocolate is loved</a>
+        <a class="mobile-menu-nav-link" href="#cofe-made">How it’s made?</a>
+        <a class="mobile-menu-nav-link" href="#loved">Chocolate is loved</a>
       </nav>;
       <div class="menu-icons">
         <a href="#">
@@ -99,9 +99,9 @@
         </h1>
 
         <div class="button-conteiner">
-          <button class="hero-btn" type="button">Buy now</button>
-          <a class="hero-link-made" href="#">How it’s made</a>
-          <a class="hero-link-down" href="#">scroll down
+          <button class="hero-btn " type="button">Buy now</button>
+          <a class="hero-link-made" href="#cofe-made">How it’s made</a>
+          <a class="hero-link-down" href="#footer">scroll down
             <svg class="hero-down-icon" width="28" height="28">
               <use href="./images/icons.svg#icon-scroll-down"></use>
             </svg>
@@ -191,6 +191,19 @@
               <img src="./images/ingredients/milkchokolate.png" alt="MILK CHOCOLATE" width="206" height="160" />
             </picture>
             <h3 class="ingredients-title-item white-text">MILK CHOCOLATE</h3>
+            <div class="overlay-container">
+              <h3 class="overlay-title">Milk</h3>
+              <div class="overlay-button-container">
+                <a class="overlay-orange-link hero-btn" href="#">Milk</a>
+                <a class="overlay-white-link hero-link-made" href="#">the benefits</a>
+              </div>
+              <p class="overlay-text">
+                Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of
+                nutrition for young mammals (including breastfed human infants) before they are able to digest solid
+                food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune
+                system.
+              </p>
+            </div>
           </li>
           <li class="ingredients-item milk">
             <picture class="ingredients-picture ">
@@ -208,6 +221,19 @@
               <img src="./images/ingredients/milk.png" alt="MILK" width="206" height="160" />
             </picture>
             <h3 class="ingredients-title-item">MILK</h3>
+            <div class="overlay-container">
+              <h3 class="overlay-title">Milk</h3>
+              <div class="overlay-button-container">
+                <a class="overlay-orange-link hero-btn" href="#">Milk</a>
+                <a class="overlay-white-link hero-link-made" href="#">the benefits</a>
+              </div>
+              <p class="overlay-text">
+                Milk is a white liquid food produced by the mammary glands of mammals. It is the primary source of
+                nutrition for young mammals (including breastfed human infants) before they are able to digest solid
+                food.Early-lactation milk, which is called colostrum, contains antibodies that strengthen the immune
+                system.
+              </p>
+            </div>
           </li>
           <li class="ingredients-item nuts">
             <picture class="ingredients-picture ">
@@ -224,8 +250,21 @@
               <img src="./images/ingredients/nuts.png" alt="NUTS" width="206" height="160" />
             </picture>
             <h3 class="ingredients-title-item white-text">NUTS</h3>
+            <div class="overlay-container">
+              <h3 class="overlay-title">Nuts</h3>
+              <div class="overlay-button-container">
+                <a class="overlay-orange-link hero-btn" href="#">Nuts</a>
+                <a class="overlay-white-link hero-link-made" href="#">the benefits</a>
+              </div>
+              <p class="overlay-text">
+                Almonds, pistachios, and walnuts are some types of nuts that contain healthy nutrients. When eaten as
+                part of a nutrient-dense diet, these 9 nuts may offer benefits such as reducing your risk of heart
+                disease. They’re a good source of fiber, healthy fats, and plant protein. Plus, they’re great on their
+                own.
+              </p>
+            </div>
           </li>
-          <li class="ingredients-item milk">
+          <li class="ingredients-item cofe">
             <picture class="ingredients-picture ">
               <source srcset="
                                             ./images/ingredients/cofe-pc.png    1x,
@@ -241,15 +280,28 @@
                                           " media="(max-width: 767px)" />
               <img src="./images/ingredients/cofe.png" alt="SEMI - SWEET CHOCOLATE" width="206" height="160" />
             </picture>
-
             <h3 class="ingredients-title-item">SEMI - SWEET CHOCOLATE</h3>
+            <div class="overlay-container">
+              <h3 class="overlay-title">semi - sweet chocolate</h3>
+              <div class="overlay-button-container">
+                <a class="overlay-orange-link hero-btn" href="#">sweet chocolate</a>
+                <a class="overlay-white-link hero-link-made" href="#">the benefits</a>
+              </div>
+              <p class="overlay-text">
+                Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One of the best ways to gain an
+                understanding of this type of chocolate is to compare it to a different type of chocolate. Semisweet is
+                darker than milk chocolate. In a taste comparison, it has a slightly bitter taste whereas milk chocolate
+                is sweeter.
+              </p>
+            </div>
+
           </li>
         </ul>
 
     </section>
     <!--  #endregion Ingredients -->
     <!-- #region -->
-    <section class="made section">
+    <section class="made section" id="cofe-made">
       <div class="container made-container">
         <h2 class="made-title">HOW IT’S <span class="orange">MADE?</span></h2>
         <div class="made-cart-container">
@@ -311,9 +363,9 @@
         </div>
     </section>
     </div>
-    <!-- #end region -->
+    <!-- #endregion ingredients-->
     <!-- #region rewiews  -->
-    <section class=" review-section ">
+    <section class=" review-section " id="loved">
       <div class="container review-container">
 
         <h2 class="review-title"><span class="orange">chocolate</span> is loved</h2>
@@ -356,38 +408,122 @@
             <label for="slide3"></label>
           </div>
         </div>
-        <button type="button">Leave a review</button>
+        <button class="slide-button" type="button" data-modal-open>Leave a review</button>
       </div>
     </section>
-    <!-- #end region -->
+    <!-- #endregion rewiews-->
   </main>
   <!-- #region Footer -->
-  <footer class="footer hidden">
-    <p class="footer-text">
-      <span class="orange">Chocolate</span> a delicious cure for a bad day
-    </p>
-    <address class="footer-addr">
-      <p class="footer-addr-text">Contact us</p>
-      <ul class="footer-addr-list">
-        <li class="footer-addr-item">
-          <a class="footer-addr-link" href="tel:380684439426">+380 (68) 443-94-26</a>
-        </li>
-        <li class="footer-addr-item">
-          <a class="footer-addr-link" href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
-        </li>
-      </ul>
-    </address>
-    <nav class="nav-footer">
-      <ul class="header-nav-list">
-        <li class="nav-header-item"><a class="item-nav-link" href="./index.html">Home</a></li>
-        <li class="nav-header-item"><a class="item-nav-link" href="#made">How it’s made?</a></li>
-        <li class="nav-header-item">
-          <a class="item-nav-link" href="#chocolate">Chocolate is loved</a>
-        </li>
-      </ul>
-    </nav>
+  <footer class="footer " id="footer">
+    <div class="container footer-container">
+      <div class="footer-container-up">
+        <p class="footer-text">
+          <span class="orange">Chocolate</span> a delicious cure for a bad day
+        </p>
+        <address class="footer-addr">
+          <p class="footer-addr-text">Contact us</p>
+          <ul class="footer-addr-list">
+            <li class="footer-addr-item">
+              <a class="footer-addr-link" href="tel:380684439426">+380 (68) 443-94-26</a>
+            </li>
+            <li class="footer-addr-item">
+              <a class="footer-addr-link" href="mailto:simplycthаoc@gmail.com">simplycthаoc@gmail.com</a>
+            </li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer-container-down">
+        <nav class="nav-footer">
+          <a class="item-nav-link-footer" href="./index.html">Home</a>
+          <a class="item-nav-link-footer" href="#cofe-made">How it’s made?</a>
+          <span class="hid">
+            <a class="item-nav-link-footer" href="#">Our products</a>
+            <a class="item-nav-link-footer" href="#">Top Sellers</a>
+          </span>
+          <a class="item-nav-link-footer" href="#loved">Chocolate is loved</a>
+          </ul>
+        </nav>
+        <div class="subscribe">
+
+          <form class="footer-form">
+            <label class="footer-label" for="footer-mail">
+              <input class="footer-input" type="email" placeholder="Enter you email" id="footer-mail" name="email" />
+            </label>
+            <button class="footer-button hero-btn" type="submit">
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- #endregion Footer -->
+  <!-- #region modal -->
+  <div class="backdrop" data-modal>
+    <!-- .is-open-->
+    <div class="modal">
+      <button class="modal-close-btn" type="button" data-modal-close>
+        <svg class="close-btn" width="28" height="28">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <p class="modal-text">leave a review</p>
+      <p class="modal-text choko">
+        about <span class="orange">our chocolate</span></p>
+      <form class="modal-form">
+        <div class="modal-container-block">
+          <label class="modal-form-label" for="user-name">Name</label>
+          <div class="modal-form-input-cont">
+            <input class="modal-form-input" type="text" name="user-name" id="user-name" />
+            <svg class="modal-form-icon" width="17" height="17">
+              <use href="./images/icons.svg#icon-modal-firm-human"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-container-block">
+          <label class="modal-form-label" for="phone">Phone</label>
+          <div class="modal-form-input-cont">
+            <input class="modal-form-input" type="tel" name="phone" id="phone" />
+            <svg class="modal-form-icon" width="17" height="17">
+              <use href="./images/icons.svg#icon-phone-black"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="modal-container-block">
+          <label class="modal-form-label" for="email">Email</label>
+          <div class="modal-form-input-cont">
+            <input class="modal-form-input" type="email" name="email" id="email" />
+            <svg class="modal-form-icon" width="17" height="17">
+              <use href="./images/icons.svg#icon-modal-form-email"></use>
+            </svg>
+          </div>
+        </div>
+
+        <div class="modal-textarea">
+          <label class="modal-form-label" for="user-comment">Comment</label>
+          <textarea class="textarea" name="user-comment" id="user-comment" placeholder="Text input"></textarea>
+        </div>
+
+        <div class="modal-form-checkbox">
+          <input class="checkbox visually-hidden" type="checkbox" id="user-privacy" value="true" name="user-privacy" />
+          <label class="label-checkbox" for="user-privacy">
+            <span class="custum-checkbox">
+              <svg class="checkbox-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-ok"></use>
+              </svg>
+            </span>
+            <span class="privacy">
+              <span class="privacy-text">I accept the terms and conditions of the</span>
+              <a class="label-checkbox-a" href="#">Privacy Policy</a>
+            </span>
+          </label>
+        </div>
+        <button class="modal-button hero-btn">Send</button>
+      </form>
+    </div>
+  </div>
+  <!-- #endregion modal -->
+  <script src="./js/modal.js"></script>
   <script src="./js/menu.js"></script>
 </body>
 
