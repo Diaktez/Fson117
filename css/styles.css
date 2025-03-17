@@ -1223,6 +1223,11 @@ input[type="radio"] {
     color: #fff;
 }
 
+.item-nav-link-footer:hover,
+.item-nav-link-footer:focus {
+    color: #fd9222;
+}
+
 .hid {
     display: flex;
     flex-direction: column;
