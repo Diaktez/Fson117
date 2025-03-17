@@ -648,7 +648,7 @@ button {
     overflow: hidden;
 }
 
-.ingredients-item .ingredients-picture {
+.ingredients-picture {
     display: block;
     padding-left: 56px;
     padding-right: 55px;
@@ -694,7 +694,7 @@ button {
     display: block;
     position: absolute;
     top: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
     background-color: #fff;
     padding: 28px;
@@ -793,11 +793,26 @@ button {
 }
 
 @media screen and (min-width:1168px) {
+    .overlay-container {
+        padding: 16px;
+    }
+
+    .overlay-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.279;
+        letter-spacing: -0.04em;
+    }
+
+
     .ingredients-list {
-        /* max-height: auto; */
         gap: 19px;
         flex-direction: row;
         flex-wrap: nowrap;
+    }
+
+    .semi {
+        font-size: 17px;
     }
 
     .nuts {
@@ -805,8 +820,9 @@ button {
     }
 
     .ingredients-item {
+        /* min-height: auto; */
         width: calc((100% - 57px) / 4);
-        /* min-width: auto; */
+        min-width: auto;
     }
 }
 
@@ -964,7 +980,6 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 .review-title {
@@ -979,6 +994,7 @@ button {
 .review-list {
     display: flex;
     transition: transform 0.5s ease-in-out;
+
 }
 
 .review-item {
@@ -996,7 +1012,6 @@ button {
     position: relative;
     margin-bottom: 20px;
     transition: 0.6s ease-in-out;
-
 }
 
 .review-item.victoria {
@@ -1030,7 +1045,6 @@ button {
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(17, 17, 17, 0.7);
-    /* max-width: 299px; */
     padding-left: 18px;
     padding-right: 18px;
     margin: 0 auto;
@@ -1096,7 +1110,6 @@ input[type="radio"] {
 
 .slide-button:hover,
 .slide-button:focus {
-    color: #fff;
     background-color: #fd9222;
 }
 
