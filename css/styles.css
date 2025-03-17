@@ -824,15 +824,16 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .cofemate-video-container {
     position: relative;
+
 }
 
 .cofemate-picture {
     background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
 }
 
 .play-button {
@@ -983,13 +984,17 @@ button {
     border: 1px solid rgba(17, 17, 17, 0.1);
     border-radius: 15px;
     padding-top: 56px;
-    padding-bottom: 42px;
+    padding-bottom: 26px;
     box-shadow: 0 9px 10px 0 rgba(17, 17, 17, 0.03);
     background: #fff;
     position: relative;
     margin-bottom: 20px;
     transition: 0.6s ease-in-out;
 
+}
+
+.review-item.victoria {
+    padding-bottom: 42px;
 }
 
 .review-image {
