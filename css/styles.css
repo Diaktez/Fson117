@@ -6,7 +6,7 @@ body {
     font-family: "Montserrat", sans-serif;
     color: #111;
     background-color: #fafafa;
-    ;
+
 }
 
 .current {
@@ -144,7 +144,6 @@ button {
     }
 
     .header-container {
-
         padding-top: 28px;
         padding-bottom: 28px;
         display: flex;
@@ -676,7 +675,8 @@ button {
     color: #fff;
 }
 
-.milk {
+.milk,
+.cofe {
     border: 1px solid #fd9222;
 }
 
@@ -782,6 +782,10 @@ button {
         max-height: 572px;
         gap: 32px;
         flex-wrap: wrap;
+    }
+
+    .nuts {
+        order: 4;
     }
 
     .ingredients-item {
