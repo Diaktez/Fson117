@@ -802,6 +802,10 @@ button {
         flex-wrap: nowrap;
     }
 
+    .nuts {
+        order: 0;
+    }
+
     .ingredients-item {
         width: calc((100% - 19px) / 4);
         min-width: auto;
