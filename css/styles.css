@@ -1159,6 +1159,10 @@ input[type="radio"] {
         margin-bottom: 100px;
     }
 
+    .review-item.victoria {
+        padding-bottom: 26px;
+    }
+
     .slider-nav,
     input[type="radio"],
     .slider-nav {
