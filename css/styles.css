@@ -324,7 +324,7 @@ button {
 }
 
 .hero-container {
-    /* padding-left: 40px; */
+    padding-left: 40px;
     padding-top: 395px;
     padding-bottom: 20px;
 }
@@ -415,22 +415,24 @@ button {
                 url(../images/hero/hero-background-tablet-@2x.jpg) 2x);
         background-repeat: no-repeat;
         background-position: center;
-
-
+        background-size: cover;
     }
 
     .hero-container {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-top: 671px;
+        padding-left: 72px;
+        padding-right: 72px;
+        padding-bottom: 40px;
     }
 
     .hero-title {
-        min-width: 465px;
+        display: flex;
+        justify-content: center;
+        width: 460px;
         font-weight: 500;
         font-size: 28px;
         line-height: 1.21429;
         letter-spacing: -0.03em;
-        text-align: left
     }
 
     .hero-link-down {
@@ -446,38 +448,41 @@ button {
         background-image: linear-gradient(180deg, rgba(17, 17, 17, 0.4) 0%, rgba(17, 17, 17, 0.4) 100%),
             image-set(url(../images/hero/hero-background-pc.jpg) 1x,
                 url(../images/hero/hero-background-pc-@2x.jpg) 2x);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
     }
 
+    .hero-container {
+        padding-top: 381px;
+    }
 
+    .hero-btn:hover,
+    .hero-btn:focus {
+        background: #fcf1e0;
+        color: #fd9222;
 
+    }
+
+    .hero-link-made:hover,
+    .hero-link-made:focus {
+        background-color: #fff;
+        color: #fd9222;
+        border: 1px solid #fd9222;
+    }
+
+    .hero-link-down:hover,
+    .hero-link-down:focus {
+        color: #fd9222;
+    }
+
+    .hero-down-icon:hover,
+    .hero-down-icon:focus {
+        background-color: #fd9222;
+        fill: #fff
+    }
 }
-
-.hero-btn:hover,
-.hero-btn:focus {
-    background: #fcf1e0;
-    color: #fd9222;
-
-}
-
-.hero-link-made:hover,
-.hero-link-made:focus {
-    background-color: #fff;
-    color: #fd9222;
-    border: 1px solid #fd9222;
-}
-
-.hero-link-down:hover,
-.hero-link-down:focus {
-    color: #fd9222;
-}
-
-.hero-down-icon:hover,
-.hero-down-icon:focus {
-    background-color: #fd9222;
-    fill: #fff
-}
-
 
 /* #endregion hero */
 /* #region benefits */
@@ -531,6 +536,7 @@ button {
     letter-spacing: -0.02em;
     color: rgba(255, 255, 255, 0.7);
 }
+
 
 @media screen and (min-width:768px) {
     .benefits-section {
